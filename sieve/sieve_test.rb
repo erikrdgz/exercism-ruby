@@ -44,6 +44,11 @@ class SieveTest < Minitest::Test
     assert_equal expected, Sieve.new(1000).primes
   end
 
+  # Look for ways to optimize 
+  # def test_itll_take_long
+  #   Sieve.new(10000).primes
+  # end
+
   # Problems in exercism evolve over time, as we find better ways to ask
   # questions.
   # The version number refers to the version of the problem you solved,
